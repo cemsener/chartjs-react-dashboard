@@ -1,0 +1,63 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 0 300px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 0;
+  position: relative;
+  background-color: #f3f3f7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+
+  .cardBorder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .cardBody {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .cardIcon {
+    font-size: 2.8em; // ikon boyutu
+    margin-right: 20px;
+    margin-left: 15px;
+  }
+
+  .cardDivider {
+    border-left: 2px solid #eee; //ayırıcı
+    height: 100%;
+    margin-right: 15px;
+  }
+
+  .cardContent {
+    .cardTitle {
+      margin: 0;
+      font-weight: bold;
+      color: #333; // yazı rengi
+      margin-top: -3px;
+    }
+
+    .cardNumber {
+      margin: 0;
+      font-size: 1.2em; // sayı boyutu
+      font-weight: bold;
+      color: #333; // rakam rengi
+    }
+  }
+}

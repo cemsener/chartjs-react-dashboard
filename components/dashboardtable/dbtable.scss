@@ -1,0 +1,125 @@
+.avatar-title {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3b76e1;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bg-soft-info {
+  background-color: rgba(87, 201, 235, 0.25) !important;
+}
+
+.bg-soft-primary {
+  background-color: rgba(59, 118, 225, 0.25) !important;
+}
+
+.avatar-xs {
+  height: 1rem;
+  width: 1rem;
+}
+
+.avatar-sm {
+  height: 2rem;
+  width: 2rem;
+}
+
+.avatar {
+  height: 3rem;
+  width: 3rem;
+}
+
+.avatar-md {
+  height: 4rem;
+  width: 4rem;
+}
+
+.avatar-lg {
+  height: 5rem;
+  width: 5rem;
+}
+
+.avatar-xl {
+  height: 6rem;
+  width: 6rem;
+}
+
+.avatar-title {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3b76e1;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.avatar-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 8px;
+  flex-direction: row;
+}
+
+.avatar-group .avatar-group-item {
+  margin-left: -8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  padding: 2px;
+}
+
+.avatar-group .avatar-group-item:hover {
+  position: relative;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.fw-medium {
+  padding-left: 20px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dbtable-date {
+  padding-left: 5px;
+}
+
+.dbtable-size {
+}
+
+.dbtable-dropdown {
+}
+
+.dbtable-dropdowncontent {
+}
